@@ -6,4 +6,3 @@ function showMenuBar(){
     }
     nav.style.visibility = "hidden";
 }
-

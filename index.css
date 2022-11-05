@@ -116,11 +116,11 @@ header{
     display: block;
 }
 p{
-    color: var(--Very-dark-grayish-blue);
+    color: var(--Dark-grayish-blue);
     text-align: center;
     margin-top: 10px;
     font-family: 'Barlow', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
 }
 #learn-more{
     border-style: none;
@@ -172,13 +172,92 @@ h3{
 }
 .clients{
     padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .images-clients{
     border-radius: 300px;
     width: 70px;
     height: auto;
 }
+.name{
+    margin-top: 30px;
+    color: var(--Very-dark-desaturated-blue);
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+}
+.job{
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--Grayish-blue);
+}
 
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.inside-container {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25vh;
+}
+
+.inside-container1 {
+    background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+}
+.inside-container2 {
+    background-image: url(./images/desktop/image-gallery-orange.jpg);
+}
+.inside-container3 {
+    background-image: url(./images/desktop/image-gallery-cone.jpg);
+}
+.inside-container4 {
+    background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+}
+
+footer{
+    background-color: var(--dark-moderate-cyan-footer);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo{
+    color: var(--dark-saturated-cyan-graph-design-text);
+    font-size: 1rem;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;   
+}
+
+.us {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+    margin-top: 20px;
+}
+.us h4{
+    font-size: 0.7rem;
+    color: hsl(168, 34%, 70%);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+}
+
+.social{
+    margin-top: 20px;
+
+}
+.social img{
+    margin-left: 15px;
+}
 @media only screen and (min-width:514px) {
     
 }
