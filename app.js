@@ -1,6 +1,6 @@
 let nav =document.getElementById("nav-bar-id");
 let bigText = document.getElementById("big-text");
-let ids= ["nav","bigText","arrow"];
+
 function showMenuBar(){
     if(nav.style.display == "none"){
         nav.style.display = "flex";
