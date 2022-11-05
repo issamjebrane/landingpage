@@ -63,7 +63,6 @@ header{
     background-color: var(--White);
     width: 80%;
     height: 60%;
-    visibility:visible;
     display: none;
     flex-direction: column;
     align-items: center;
@@ -257,7 +256,16 @@ footer{
 }
 .social img{
     margin-left: 15px;
-}
-@media only screen and (min-width:514px) {
     
+}
+@media only screen and (min-width:400px) {
+ .nav-div-bar{
+    display: none;
+ }
+ .nav{
+    display: flex;
+    background:none;
+    flex-direction: row;
+    
+ }
 }
