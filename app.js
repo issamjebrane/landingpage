@@ -12,6 +12,7 @@ function showMenuBar(){
     bigText.style.display = "block";
     arrow.style.display = "block";
 }
+//this event listens to window resizing so the nav bar changes and becomes reponsive to the window size
 window.addEventListener("resize",()=>{
 if(window.innerWidth >= "400"){
     let navbar = document.getElementById("nav");
